@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css.css">
+    <title>technical documentation</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h1>HTML Basic EXAMPLES</h1>
+        </header>
+
+        <ul>
+            <li><a class="nav-link" href="#HTML_Documents">HTML Documents</a></li>
+            <li><a class="nav-link" href="#HTML_Headings">HTML Headings</a></li>
+            <li><a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a></li>
+            <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+            <li><a class="nav-link" href="#HTML_Images">HTML Images</a></li>
+            <li><a class="nav-link" href="#HTML_Buttons">HTML Buttons</a></li>
+            <li><a class="nav-link" href="#HTML_Lists">HTML Lists</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="HTML_Documents">
+            <header>
+                HTML Documents
+            </header>
+
+            <article>
+                
+            <ul>
+                <li>
+                    All HTML documents must start with a document type declaration: <code class="code">&lt!DOCTYPE
+                            html&gt</code> 
+                </li>
+                <li>
+                    The HTML document itself begins with <code class="code">&lthtml&gt</code> and ends with <code
+                            class="code">&lt/html&gt</code>.
+                </li>
+                <li>
+                    The visible part of the HTML document is between <code class="code">&ltbody&gt</code> and <code
+                            class="code">&lt/body&gt</code>.
+                </li>
+            </ul>
+
+            <p>EXAMPLE:</p>
+            <p class="code"><code>
+                    &lt!DOCTYPE html&gt <br>
+                    &lthtml&gt <br>
+                    &ltbody&gt <br>
+                    &lth1&gtMy First Heading&lt/h1&gt <br>
+                    &ltp&gtMy first paragraph.&lt/p&gt <br>
+            &lt/body&gt <br>
+            &lt/html&gt <br>
+            </code></p>
+            </article>
+            
+        </section>
+
+
+
+        <section class="main-section" id="HTML_Headings">
+            <header>
+                HTML Headings
+            </header>
+            <article>
+                <ul>
+                    <li>HTML headings are defined with the <code class="code">&lth1&gt</code> to <code class="code">&lth6&gt</code> tags.</li>
+                    <li>  <code class="code">&lth1&gt</code> defines the most important heading. <code class="code">&lth6&gt</code> defines the least important heading: </li>
+                </ul>
+    
+                <p>EXAMPLE:</p>
+                <p class="code"><code >
+                        &lth1&gtThis is heading 1&lt/h1&gt <br>
+                        &lth2&gtThis is heading 2&lt/h2&gt <br>
+                        &lth3&gtThis is heading 3&lt/h3&gt
+                    </code></p>
+            </article>
+        </section>
+
+
+
+
+
+        <section class="main-section" id="HTML_Paragraphs">
+            <header>
+                HTML Paragraphs
+            </header>
+           <article>
+            <p>HTML paragraphs are defined with the <code class="code">&ltp&gt</code> tag:</p>
+            <p>EXAMPLE:</p>
+            <p class="code"><code >
+                    &ltp&gtThis is a paragraph.&lt/p&gt <br>
+                    &ltp&gtThis is another paragraph.&lt/p&gt
+                </code></p>
+           </article>
+        </section>
+
+
+
+
+
+        <section class="main-section" id="HTML_Links">
+            <header>
+                HTML Links
+            </header>
+           <article>
+            <p>HTML links are defined with the <code class="code">&lta&gt</code> tag:</p>
+            <p>EXAMPLE:</p>
+            <p class="code"><code >
+                &lta href="https://www.w3schools.com"&gtThis is a link&lt/a&gt
+            </code></pclass="code">
+           </article>
+          
+        </section>
+
+
+
+
+        <section class="main-section" id="HTML_Images">
+            <header>
+                HTML Images
+            </header>
+           <article>
+            <p>HTML images are defined with the <code class="code">&ltimg></code> tag.</p>
+            <p>The source file <code class="code">(src)</code>, alternative text <code class="code">(alt)</code>, <code class="code">width</code>, and <code class="code">width</code> are provided as attributes:</p>
+            <p>EXAMPLE:</p>
+                <p class="code"><code >
+                    &ltimg src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt
+                </code></p>
+           </article> 
+          
+        </section>
+
+
+        <section class="main-section" id="HTML_Buttons">
+            <header>
+                HTML Buttons
+            </header>
+
+           <article>
+            <p>HTML buttons are defined with the <code class="code">&ltbutton&gt</code> tag:</p>
+
+            <p>EXAMPLE:</p>
+            <p class="code"><code >
+                &ltbutton&gtClick me&lt/button&gt
+            </code></pclass="code">
+           </article>
+       
+        </section>
+
+
+        <section class="main-section" id="HTML_Lists">
+            <header>
+                HTML Lists
+            </header>
+
+            <article>
+                <p>HTML lists are defined with the <code class="code">&ltul&gt</code> (unordered/bullet list) or the <code class="code">&ltol&gt</code> (ordered/numbered list) tag, followed by <code class="code">&ltli&gt</code> tags (list items):</p>
+
+            <p>EXAMPLE:</p>
+            <p  class="code"><code>
+                &ltul>      <br>
+                    &ltli&gtCoffee&lt/li&gt  <br>
+                    &ltli&gtTea&lt/li&gt     <br>
+                    &ltli&gtMilk&lt/li&gt  <br>
+                  &lt/ul&gt <br>
+                  
+                  &ltol&gt <br>
+                    &ltli&gtCoffee&lt/li&gt <br>
+                    &ltli&gtTea&lt/li&gt <br>
+                    &ltli&gtMilk&lt/li&gt <br>
+                  &lt/ol&gt <br>
+            </code></p>
+            </article> 
+        </section>
+
+
+
+    </main>
+
+
+
+
+
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>
